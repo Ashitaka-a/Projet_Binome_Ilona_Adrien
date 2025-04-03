@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <title>Contact</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="Adrien et Ilona" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="page">
+      <header>
+        <img src="images/Logo.jpg" alt="Jardinage" />
+        <nav>
+          <ul>
+            <li><a href="#" title="Accueil">Accueil</a></li>
+            <li><a href="#" title="Plantes">Plantes</a></li>
+            <li><a href="#" title="Astuces">Astuces</a></li>
+            <li><a href="#" title="Contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <ul>
+          <li><a href="#" title="Accueil">Accueil</a></li>
+          <li>Nous contacter</li>
+        </ul>
+        <h1>Nous contacter</h1>
+        <p>
+          Pour contacter notre équipe, merci de compléter le formulaire suivant :
+        </p>
+
+        <form action="/traitement.php" method="POST" enctype="multipart/form-data">
+
+          <label for="nometprénom">Votre nom et prénom :</label>
+          <br />
+          <input type="nometprénom" id="nometprénom" maxlength="50" name="nometprénom" required
+            placeholder="Nom et Prénom"><br />
+
+          <label for="numero">Votre numéro de téléphone :</label>
+          <br />
+          <input type="numero" id="numero" maxlength="20" name="numero" required>
+          <br />
+
+          <label for="mail">Votre adresse e-mail :</label><br />
+          <input type="mail" id="mail" maxlength="50" name="mail" required><br />
+
+          <label for="message">Votre message :</label><br />
+          <textarea name="message" id="message" rows="10" cols="50"></textarea><br />
+
+          <label for="politiquedeconfidentialite">
+            <input type="checkbox" id="politiquedeconfidentialite"> En validant ce formulaire, je reconnais avoir pris
+            connaissance de la <a href="#" title="Politique de confidentialité">Politique de confidentialité</a> et des
+            droits dont je dispose sur mes données personnelles.
+          </label>
+          <br />
+
+          <button type="submit">Envoyer mon message</button><br />
+
+        </form>
+      </main>
+    </div>
+  </body>
+
+</html>
