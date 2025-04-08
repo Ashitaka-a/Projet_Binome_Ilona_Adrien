@@ -1,0 +1,63 @@
+/* body {
+    overflow: hidden;
+} */
+
+.sharewrapper {
+    background: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+}
+
+.share {
+    max-width: 600px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    border-radius: 10px;
+}
+
+.share_title {
+    text-align: center;
+    padding: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid #C0C0C0;
+}
+
+.share_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.share_content .btn {
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.share_content .btn:hover {
+    background: yellow;
+}
+
+
+
+.share_content .btn:active {
+    background: red;
+}
+
+.share_content .btn:focus {
+    background: pink;
+}
+
+.share_content .btn-facebook {
+    background: blue;
+}
