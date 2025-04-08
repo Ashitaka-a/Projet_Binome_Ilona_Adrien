@@ -1,2 +1,11 @@
 @import url("reset.css");
+
+/* Variables *n
+@import url("var.css");
+
+/* Adrien composant */
 @import url("header.css");
+
+
+/* Ilona composant */
+@import url("share.css");
