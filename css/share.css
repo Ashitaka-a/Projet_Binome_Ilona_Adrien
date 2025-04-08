@@ -16,7 +16,7 @@
     max-width: 600px;
     background: white;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: relative;
@@ -26,7 +26,7 @@
 .share_title {
     text-align: center;
     padding: 20px;
-    font-weight: 700;
+    font-weight: 800;
     border-bottom: 1px solid #C0C0C0;
 }
 
@@ -40,24 +40,33 @@
 }
 
 .share_content .btn {
-    border-radius: 30px;
+    border-radius: 60px;
     padding: 10px;
+    border-bottom: 1px dotted black;
 }
 
 .share_content .btn:hover {
-    background: yellow;
+    background: rgb(107, 107, 106);
 }
 
 
 
 .share_content .btn:active {
-    background: red;
+    background: rgb(7, 129, 58);
 }
 
 .share_content .btn:focus {
-    background: pink;
+    background: rgb(5, 202, 87);
 }
 
 .share_content .btn-facebook {
-    background: blue;
+    background: #F0F0F0;
+}
+
+.share_content .btn-twitter {
+    background: #F0F0F0;
+}
+
+.share_content .btn-pinterest {
+    background: #F0F0F0;
 }
