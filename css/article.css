@@ -1,0 +1,14 @@
+.main-content-body {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.main-content:before {
+    content: '';
+    display: block;
+    background-color: red;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
