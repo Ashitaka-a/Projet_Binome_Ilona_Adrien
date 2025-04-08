@@ -1,0 +1,9 @@
+#footer {
+    background: linear-gradient(#7C6CB7, #5B4D8C);
+    display: flex;
+    align-items: center;
+}
+
+#footer images {
+    display: flex;
+}
