@@ -19,16 +19,15 @@
 
 
 
- .formulaire {
-     padding: 80px;
-     max-width: 600px;
+ .main-box {
+     max-width: 100%;
      background: white;
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     position: relative;
+     /* position: absolute; */
+     /* top: 50%; */
+     /* left: 50%; */
+     /* transform: translate(-50%, -50%); */
      border-radius: 10px;
+
  }
 
  .title {
@@ -38,10 +37,20 @@
      color: green;
  }
 
- .btn btn-message {
-     border-radius: 60px;
+
+
+ .btn {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 200px;
+     gap: 20px;
+     margin-top: 20px;
+     border-radius: 10px;
      padding: 10px;
      border-bottom: 1px dotted black;
+     text-decoration: none;
+
  }
 
  .btn:hover {
@@ -60,4 +69,48 @@
 
  .btn-message {
      background: #196E43;
+     color: white;
+ }
+
+
+ .form-group {
+     margin-bottom: 15px;
+ }
+
+ .form-group.checkbox label {
+     display: flex;
+     gap: 10px;
+ }
+
+ .form-group.checkbox input {
+     width: min-content;
+ }
+
+ .form-group label {
+     display: block;
+ }
+
+ .form-group textarea,
+ .form-group input,
+ .form-group select {
+     padding: 10px 15px;
+     border-radius: 10px;
+     border: 1px solid #C0c0c0;
+ }
+
+ .form-group input {
+     width: 100%;
+ }
+
+
+ .form-group select {
+     width: 100%;
+ }
+
+ .form-group textarea {
+     width: 100%;
+ }
+
+ .form-contact {
+     margin-top: 30px;
  }

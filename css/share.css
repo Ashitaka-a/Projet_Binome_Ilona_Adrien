@@ -12,7 +12,7 @@ body.has-share .sharewrapper {
     display: none;
 
     background: rgba(0, 0, 0, .7);
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -25,7 +25,7 @@ body.has-share .sharewrapper {
 .share {
     max-width: 600px;
     background: white;
-    position: absolute;
+    position: fixed;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);

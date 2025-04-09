@@ -8,12 +8,11 @@
     <meta name="description" content="" />
     <meta name="author" content="Adrien et Ilona" />
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <script src="script.js" defer></script>
+    <script src="script.js" async></script>
   </head>
 
   <body>
 
-    <button class="share-btn">Partager</button>
 
     <header id="header">
       <div class="logo">
@@ -36,7 +35,6 @@
             <li><a href="accueil.html" title="Accueil">Accueil</a></li>
             <li><a href="formulaire.html" title="Accueil">Contact</a></li>
           </ul>
-
         </div>
 
         <div class="main-box">
@@ -44,6 +42,7 @@
           <div class="title">
             <h1>Nous contacter</h1>
           </div>
+
           <p>
             Vous avez une astuce à partager, un souci avec vos tomates, ou juste envie de papoter boutures et compost
             ?
@@ -52,47 +51,84 @@
           </p>
           <p>Remplissez le formulaire ci-dessous ou écrivez-nous directement à contact@jardinage.fr
             On vous répond dès qu’on a les mains un peu moins pleines de terre.</p>
-          <form action=" /traitement.php" method="POST" enctype="multipart/form-data">
 
-            <label for="nometprénom">Votre nom et prénom :</label>
-            <br />
-            <input type="nometprénom" id="nometprénom" maxlength="50" name="nometprénom" required
-              placeholder="Nom et Prénom"><br />
 
-            <label for="numero">Votre numéro de téléphone :</label>
-            <br />
-            <input type="numero" id="numero" maxlength="20" name="numero" required>
-            <br />
+          <form class="form-contact">
+            <div class="form-group">
+              <label for="nometprénom">Votre nom et prénom :</label>
+              <input type="nometprénom" id="nometprénom" maxlength="50" name="nometprénom" required
+                placeholder="Nom et Prénom">
+            </div>
 
-            <label for="mail">Votre adresse e-mail :</label><br />
-            <input type="mail" id="mail" maxlength="50" name="mail" required><br />
+            <div class="form-group">
+              <label for="numero">Votre numéro de téléphone :</label>
+              <input type="numero" id="numero" maxlength="20" name="numero" required>
+            </div>
 
-            <label for="message">Votre message :</label><br />
-            <textarea name="message" id="message" rows="10" cols="50"></textarea><br />
+            <div class="form-group">
+              <label for="mail">Votre adresse e-mail :</label>
+              <input type="mail" id="mail" maxlength="50" name="mail" required>
+            </div>
 
-            <label for="politiquedeconfidentialite">
-              <input type="checkbox" id="politiquedeconfidentialite"> En validant ce formulaire, je reconnais avoir
-              pris
-              connaissance de la <a href="#" title="Politique de confidentialité">Politique de confidentialité</a> et
-              des
-              droits dont je dispose sur mes données personnelles.
-            </label>
-            <br />
+            <div class="form-group">
+              <label for="mail">Sujet :</label>
+              <select>
+                <option>Service Clients</option>
+                <option>Webmaster</option>
+              </select>
+            </div>
 
-            <a href="" title="" class="btn btn-message">Envoyer mon message</a>
+            <div class="form-group">
+              <label for="message">Votre message :</label>
+              <textarea name="message" id="message" rows="10" cols="50"></textarea>
+            </div>
+
+            <div class="form-group checkbox">
+              <label for="politiquedeconfidentialite">
+                <input type="checkbox" id="politiquedeconfidentialite">
+                <span>En validant ce formulaire, je reconnais avoir
+                  pris
+                  connaissance de la <a href="#" title="Politique de confidentialité">Politique de confidentialité</a>
+                  et
+                  des
+                  droits dont je dispose sur mes données personnelles.
+                </span>
+              </label>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-message">Envoyer mon message</button>
+            </div>
           </form>
         </div>
       </div>
     </div>
+    <button class="share-btn">Partager</button>
 
-
+    <footer class="footer-contact">
+      <div class="container">
+        <div class="footer-contact-title">
+          <h1>Nous situer</h1>
+        </div>
+        <div class="main-box">
+          <div class="footer-grid">
+            <div class="footer-grid-left">
+              horaires
+            </div>
+            <div class="footer-grid-right">
+              plan
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    </div>
 
 
     <div class="sharewrapper">
       <div class="share">
 
         <div class="share_title">
-          Partager
+          Partager <span class="closeModal">Fermer</span>
         </div>
 
         <div class="share_content">
@@ -100,9 +136,7 @@
           <a href="" title="" class="btn btn-facebook">Partager sur Facebook</a>
           <a href="" title="" class="btn btn-pinterest">Partager sur Pinterest</a>
         </div>
-
       </div>
-    </div>
   </body>
 
 </html>

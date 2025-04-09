@@ -9,6 +9,10 @@
 
 @import url("footer.css");
 
+@import url("footer-contact.css");
+
 @import url("formulaire.css");
 
 @import url("article.css");
+
+@import url("breadcrumb.css");
