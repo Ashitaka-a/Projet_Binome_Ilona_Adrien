@@ -28,6 +28,7 @@ body {
 }
 
 .breadcrumb {
+
     display: flex;
     flex-direction: row;
 }
