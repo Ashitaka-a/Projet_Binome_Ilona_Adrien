@@ -1,9 +1,8 @@
 #footer {
-    background: linear-gradient(#7C6CB7, #5B4D8C);
-    display: flex;
-    align-items: center;
+  background: linear-gradient(#7C6CB7, #5B4D8C);
 }
 
-#footer images {
-    display: flex;
+#footer h2 {
+  text-align: center;
+  font-size: 24px;
 }
