@@ -1,0 +1,63 @@
+ .content {
+     /* 
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+     padding: 20px;
+     padding: 80px;
+     max-width: 600px;
+     background: white;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     position: relative;
+     border-radius: 10px; */
+ }
+
+
+
+ .formulaire {
+     padding: 80px;
+     max-width: 600px;
+     background: white;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     position: relative;
+     border-radius: 10px;
+ }
+
+ .title {
+     text-align: left;
+     padding: 20px;
+     font-weight: 800;
+     color: green;
+ }
+
+ .btn btn-message {
+     border-radius: 60px;
+     padding: 10px;
+     border-bottom: 1px dotted black;
+ }
+
+ .btn:hover {
+     background: rgb(107, 107, 106);
+ }
+
+
+
+ .btn:act {
+     background: rgb(7, 129, 58);
+ }
+
+ .btn:focus {
+     background: rgb(5, 202, 87);
+ }
+
+ .btn-message {
+     background: #196E43;
+ }
