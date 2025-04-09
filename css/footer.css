@@ -5,4 +5,77 @@
 #footer h2 {
   text-align: center;
   font-size: 24px;
+  color: white;
 }
+
+
+#footer .footer-block {
+  padding: 20px;
+}
+
+
+#footer .footer-container {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.image-text {
+  width: 100%;
+}
+
+
+.footer-container-flex {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.footer-container-flex picture img {
+  width: 100%;
+  vertical-align: bottom;
+  height: auto;
+  border-radius: 20px 20px 0px 0px;
+
+  @media (max-width: 768px) {
+    max-width: 150px;
+  }
+}
+
+.footer-container-flex .image-text a {
+  display: block;
+  text-align: center;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  border-radius: 0px 0px 20px 20px;
+
+  @media (max-width: 768px) {
+    display: flex;
+    align-items: center;
+   height: 100%;
+   border-radius: unset;
+  }
+}
+
+
+@media (max-width: 480px) {
+  body {
+    background: red;
+  }
+}
+
+
