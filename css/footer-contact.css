@@ -1,0 +1,22 @@
+.footer-contact {
+    background-color: #5D4F8F;
+    padding-bottom: 50px;
+
+    margin-top: 50px;
+
+    /* content: ''; */
+    /* display: block; */
+    /* background-color: #5D4F8F; */
+    /* height: 200px; */
+    /* width: 100%; */
+    /* position: absolute; */
+    /* z-index: -1; */
+}
+
+.footer-contact-title {}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}

@@ -3,16 +3,23 @@ body {
 }
 
 .container {
+    /* display: flex; */
+    /* gap: 10px; */
+    /* flex-direction: row; */
     max-width: 900px;
     margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+
+
 }
 
 .main-box {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     background: white;
+    padding: 10px;
 }
 
 .main-content:before {
@@ -27,6 +34,4 @@ body {
 
 .breadcrumb {
 
-    display: flex;
-    flex-direction: row;
 }
