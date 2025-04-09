@@ -7,22 +7,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
     <meta name="author" content="Adrien et Ilona" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <script src="script.js" defer></script>
   </head>
 
   <body>
+
+    <button class="share-btn">Partager</button>
+
+    <header id="header">
+      <div class="logo">
+        <img src="images/Logo.jpg" alt="Jardinage" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="accueil.html" title="Accueil">Accueil</a></li>
+          <li><a href="#" title="Astuces">Astuces</a></li>
+          <li><a href="#" title="Plantes">Plantes</a></li>
+          <li><a href="formulaire.html" title="Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="main-content">
+      <div class="container">
+        <div class="breadcrumb">
+          <ul>
+            <li><a href="accueil.html" title="Accueil">Accueil</a></li>
+            <li><a href="formulaire.html" title="Accueil">Contact</a></li>
+          </ul>
+
+        </div>
+
+        <div class="main-box">
+
+          <div class="title">
+            <h1>Nous contacter</h1>
+          </div>
+          <p>
+            Vous avez une astuce à partager, un souci avec vos tomates, ou juste envie de papoter boutures et compost
+            ?
+            On est là pour ça ! Que vous soyez jardinier du dimanche ou passionné de permaculture, on adore échanger
+            autour du jardin.
+          </p>
+          <p>Remplissez le formulaire ci-dessous ou écrivez-nous directement à contact@jardinage.fr
+            On vous répond dès qu’on a les mains un peu moins pleines de terre.</p>
+          <form action=" /traitement.php" method="POST" enctype="multipart/form-data">
+
+            <label for="nometprénom">Votre nom et prénom :</label>
+            <br />
+            <input type="nometprénom" id="nometprénom" maxlength="50" name="nometprénom" required
+              placeholder="Nom et Prénom"><br />
+
+            <label for="numero">Votre numéro de téléphone :</label>
+            <br />
+            <input type="numero" id="numero" maxlength="20" name="numero" required>
+            <br />
+
+            <label for="mail">Votre adresse e-mail :</label><br />
+            <input type="mail" id="mail" maxlength="50" name="mail" required><br />
+
+            <label for="message">Votre message :</label><br />
+            <textarea name="message" id="message" rows="10" cols="50"></textarea><br />
+
+            <label for="politiquedeconfidentialite">
+              <input type="checkbox" id="politiquedeconfidentialite"> En validant ce formulaire, je reconnais avoir
+              pris
+              connaissance de la <a href="#" title="Politique de confidentialité">Politique de confidentialité</a> et
+              des
+              droits dont je dispose sur mes données personnelles.
+            </label>
+            <br />
+
+            <a href="" title="" class="btn btn-message">Envoyer mon message</a>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
 
     <div class="sharewrapper">
       <div class="share">
 
         <div class="share_title">
           Partager
-
         </div>
 
         <div class="share_content">
-
           <a href="" title="" class="btn btn-twitter">Partager sur Twitter</a>
           <a href="" title="" class="btn btn-facebook">Partager sur Facebook</a>
           <a href="" title="" class="btn btn-pinterest">Partager sur Pinterest</a>
@@ -30,60 +103,6 @@
 
       </div>
     </div>
-
-    <div class="page">
-      <header>
-        <img src="images/Logo.jpg" alt="Jardinage" />
-        <nav>
-          <ul>
-            <li><a href="accueil.html" title="Accueil">Accueil</a></li>
-            <li><a href="#" title="Plantes">Plantes</a></li>
-            <li><a href="#" title="Astuces">Astuces</a></li>
-            <li><a href="#" title="Contact">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <ul>
-          <li><a href="accueil.html" title="Accueil">Accueil</a></li>
-          <li>Nous contacter</li>
-        </ul>
-        <h1>Nous contacter</h1>
-        <p>
-          Pour contacter notre équipe, merci de compléter le formulaire suivant :
-        </p>
-
-        <form action="/traitement.php" method="POST" enctype="multipart/form-data">
-
-          <label for="nometprénom">Votre nom et prénom :</label>
-          <br />
-          <input type="nometprénom" id="nometprénom" maxlength="50" name="nometprénom" required
-            placeholder="Nom et Prénom"><br />
-
-          <label for="numero">Votre numéro de téléphone :</label>
-          <br />
-          <input type="numero" id="numero" maxlength="20" name="numero" required>
-          <br />
-
-          <label for="mail">Votre adresse e-mail :</label><br />
-          <input type="mail" id="mail" maxlength="50" name="mail" required><br />
-
-          <label for="message">Votre message :</label><br />
-          <textarea name="message" id="message" rows="10" cols="50"></textarea><br />
-
-          <label for="politiquedeconfidentialite">
-            <input type="checkbox" id="politiquedeconfidentialite"> En validant ce formulaire, je reconnais avoir pris
-            connaissance de la <a href="#" title="Politique de confidentialité">Politique de confidentialité</a> et des
-            droits dont je dispose sur mes données personnelles.
-          </label>
-          <br />
-
-          <button type="submit">Envoyer mon message</button><br />
-
-        </form>
-      </main>
-    </div>
-
   </body>
 
 </html>

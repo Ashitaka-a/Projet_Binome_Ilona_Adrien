@@ -1,13 +1,14 @@
 #header {
     background-color: #ffffff;
     display: flex;
-    align-items: center
+    align-items: center;
+    font-family: var(--font-family-title);
 }
 
 
 #header .logo {
     padding: 10px 20px;
-    
+
 }
 
 #header .logo img {
@@ -31,4 +32,3 @@
 #header nav ul li:nth-child(4) {
     margin-left: auto;
 }
-
