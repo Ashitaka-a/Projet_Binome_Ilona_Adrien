@@ -38,6 +38,15 @@ body.has-share .sharewrapper {
     padding: 20px;
     font-weight: 800;
     border-bottom: 1px solid #C0C0C0;
+    display: flex;
+    justify-content: space-between;
+    gap: 05;
+}
+
+
+.share_title .btn {
+    background: red;
+
 }
 
 .share_content {
@@ -47,6 +56,7 @@ body.has-share .sharewrapper {
     align-items: center;
     gap: 20px;
     padding: 20px;
+
 }
 
 .share_content .btn {
