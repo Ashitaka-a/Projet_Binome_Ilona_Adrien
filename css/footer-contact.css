@@ -13,8 +13,6 @@
     /* z-index: -1; */
 }
 
-.footer-contact-title {}
-
 .footer-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
