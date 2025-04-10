@@ -38,6 +38,14 @@ body.has-share .sharewrapper {
     padding: 20px;
     font-weight: 800;
     border-bottom: 1px solid #C0C0C0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.share_title .btn {
+    background: red;
+
 }
 
 .share_content {

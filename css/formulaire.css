@@ -35,6 +35,7 @@
      padding: 20px;
      font-weight: 800;
      color: green;
+     font-size: 30px;
  }
 
 
@@ -72,6 +73,9 @@
      color: white;
  }
 
+ .article {
+     margin: 10px;
+ }
 
  .form-group {
      margin-bottom: 15px;
