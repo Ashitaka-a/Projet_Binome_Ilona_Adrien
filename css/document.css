@@ -1,12 +1,12 @@
 /**
  * Smooth scrolling on the whole document
  */
- html {
-	scroll-behavior: smooth;
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-    font-family: var(--font-family-base);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -35,7 +35,8 @@ body {
     height: 200px;
     width: 100%;
     position: absolute;
-    z-index: -2; /* fonctionne comme des calques, là il est le calque -2 */
+    z-index: -2;
+    /* fonctionne comme des calques, là il est le calque -2 */
 }
 
 .breadcrumb ul {
