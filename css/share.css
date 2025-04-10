@@ -40,6 +40,7 @@ body.has-share .sharewrapper {
     border-bottom: 1px solid #C0C0C0;
     display: flex;
     justify-content: space-between;
+    gap: 05;
 }
 
 
@@ -55,6 +56,7 @@ body.has-share .sharewrapper {
     align-items: center;
     gap: 20px;
     padding: 20px;
+
 }
 
 .share_content .btn {
