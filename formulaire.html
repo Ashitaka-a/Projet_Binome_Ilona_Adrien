@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <title>Contact</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="Adrien et Ilona" />
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="script.js" async></script>
+  </head>
+
+  <body>
+
+
+    <header id="header">
+      <div class="logo">
+        <img src="images/Logo.jpg" alt="Jardinage" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="accueil.html" title="Accueil">Accueil</a></li>
+          <li><a href="#" title="Astuces">Astuces</a></li>
+          <li><a href="#" title="Plantes">Plantes</a></li>
+          <li><a href="formulaire.html" title="Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="main-content">
+      <div class="container">
+        <div class="breadcrumb">
+          <ul>
+            <li><a href="accueil.html" title="Accueil">Accueil</a></li>
+            <li><a href="formulaire.html" title="Contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="main-box">
+
+          <div class="title">
+            <h1>Nous contacter</h1>
+          </div>
+          <div class="article">
+            <p>
+              Vous avez une astuce à partager, un souci avec vos tomates, ou juste envie de papoter boutures et compost
+              ?
+              On est là pour ça ! Que vous soyez jardinier du dimanche ou passionné de permaculture, on adore échanger
+              autour du jardin.
+            </p>
+          </div>
+          <div class="article">
+            <p>Remplissez le formulaire ci-dessous ou écrivez-nous directement à contact@jardinage.fr
+              On vous répond dès qu’on a les mains un peu moins pleines de terre.</p>
+          </div>
+
+          <form class="form-contact">
+            <div class="form-group">
+              <label for="nometprénom">Votre nom et prénom :</label>
+              <input type="nometprénom" id="nometprénom" maxlength="50" name="nometprénom" required>
+            </div>
+
+            <div class="form-group">
+              <label for="numero">Votre numéro de téléphone :</label>
+              <input type="numero" id="numero" maxlength="20" name="numero" required>
+            </div>
+
+            <div class="form-group">
+              <label for="mail">Votre adresse e-mail :</label>
+              <input type="mail" id="mail" maxlength="50" name="mail" required>
+            </div>
+
+            <div class="form-group">
+              <label for="mail">Sujet :</label>
+
+              <select>
+                <option>Choisissez...</option>
+                <option>Choisissez</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Votre message :</label>
+              <textarea name="message" id="message" rows="10" cols="50"></textarea>
+            </div>
+
+            <div class="form-group checkbox">
+              <label for="politiquedeconfidentialite">
+                <input type="checkbox" id="politiquedeconfidentialite">
+                <span>En validant ce formulaire, je reconnais avoir
+                  pris
+                  connaissance de la <a href="#" title="Politique de confidentialité">Politique de confidentialité</a>
+                  et
+                  des
+                  droits dont je dispose sur mes données personnelles.
+                </span>
+              </label>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-message">Envoyer mon message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <button class="share-btn">Partager</button>
+
+    <footer class="footer-contact">
+      <div class="container">
+        <div class="footer-contact-title">
+          <h1>Nous situer</h1>
+        </div>
+        <div class="main-box-footer">
+          <div class="footer-grid">
+            <div class="footer-grid-left">
+              <div class="footer-grid-left-title">Jardinage.fr</div>
+              <ul class="footer-grid-left-list">
+                <li>127 avenue Georges</li>
+                <li>Pompidou</li>
+                <li>75100 Paris</li>
+                <li>Téléphone: 01 75 75 05 75</li>
+              </ul>
+
+              <div class="footer-grid-left-title">Horaires d’ouverture</div>
+              <ul class="footer-grid-left-list">
+                <li>Lundi : 09h - 19h</li>
+                <li>Mardi : 09h - 19h</li>
+                <li>Mercredi : 09h - 19h</li>
+                <li>Jeudi : 09h - 19h</li>
+                <li>Vendredi : 09h - 19h</li>
+                <li>Samedi & Dimanche : fermé</li>
+              </ul>
+
+            </div>
+
+            <div class="footer-grid-right">
+
+              <img src="images/Mask group.jpg" alt="maps" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    </div>
+
+
+    <div class="sharewrapper">
+      <div class="share">
+
+        <div class="share_title">
+          Partager <span class="btn closeModal">Fermer</span>
+        </div>
+
+        <div class="share_content">
+          <a href="" title="" class="btn btn-twitter">Partager sur Twitter</a>
+          <a href="" title="" class="btn btn-facebook">Partager sur Facebook</a>
+          <a href="" title="" class="btn btn-pinterest">Partager sur Pinterest</a>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+
+</html>

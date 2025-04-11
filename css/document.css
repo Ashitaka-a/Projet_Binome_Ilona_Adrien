@@ -1,0 +1,62 @@
+/**
+ * Smooth scrolling on the whole document
+ */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    /* display: flex; */
+    /* gap: 10px; */
+    /* flex-direction: row; */
+    max-width: 900px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+
+}
+
+.main-box {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    background: white;
+    padding: 10px;
+}
+
+.main-content:before {
+    content: '';
+    display: block;
+    background-color: green;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    /* fonctionne comme des calques, là il est le calque -2 */
+}
+
+.breadcrumb ul {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    margin-bottom: 30px;
+}
+
+.breadcrumb ul li+li:before {
+    content: '>';
+    padding: 0 5px;
+    color: white;
+}
+
+.breadcrumb ul a {
+    color: white
+}

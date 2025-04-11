@@ -1,0 +1,92 @@
+/* body {
+    overflow: hidden;
+} */
+
+
+body.has-share .sharewrapper {
+    display: block;
+}
+
+.sharewrapper {
+    /* Cache un element */
+    display: none;
+
+    background: rgba(0, 0, 0, .7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+}
+
+
+
+.share {
+    max-width: 600px;
+    background: white;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    border-radius: 10px;
+}
+
+.share_title {
+    text-align: center;
+    padding: 20px;
+    font-weight: 800;
+    border-bottom: 1px solid #C0C0C0;
+    display: flex;
+    justify-content: space-between;
+    gap: 05;
+}
+
+
+.share_title .btn {
+    background: red;
+
+}
+
+.share_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.share_content .btn {
+    border-radius: 60px;
+    padding: 10px;
+    border-bottom: 1px dotted black;
+}
+
+.share_content .btn:hover {
+    background: rgb(107, 107, 106);
+}
+
+
+
+.share_content .btn:active {
+    background: rgb(7, 129, 58);
+}
+
+.share_content .btn:focus {
+    background: rgb(5, 202, 87);
+}
+
+.share_content .btn-facebook {
+    background: #F0F0F0;
+}
+
+.share_content .btn-twitter {
+    background: #F0F0F0;
+}
+
+.share_content .btn-pinterest {
+    background: #F0F0F0;
+}
