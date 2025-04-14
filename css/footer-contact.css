@@ -1,7 +1,8 @@
 .footer-contact {
     background-color: #5D4F8F;
     padding-bottom: 50px;
-
+    padding-left: 30px;
+    padding-right: 30px;
     margin-top: 50px;
 
 
@@ -18,6 +19,12 @@
 .footer-grid {
     display: grid;
     grid-template-columns: 50% 50%;
+
+    @media (max-width: 768px) {
+        flex-direction: row;
+        grid-template-columns: none;
+     }
+
 }
 
 .footer-contact-title {
@@ -38,11 +45,27 @@
     justify-content: center;
     gap: 20px;
     margin: 20px;
+
 }
 
+.footer-grid-left ul {
+
+    @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+}
 
 .footer-grid-left-title {
     font-weight: bold;
+
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
 }
 
 
