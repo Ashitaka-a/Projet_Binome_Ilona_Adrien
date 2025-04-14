@@ -5,6 +5,8 @@
 
 body.has-share .sharewrapper {
     display: block;
+
+
 }
 
 .sharewrapper {
@@ -31,14 +33,16 @@ body.has-share .sharewrapper {
     transform: translate(-50%, -50%);
     position: relative;
     border-radius: 10px;
+
+
 }
+
 
 .share_title {
     text-align: center;
     padding: 20px;
     font-weight: 800;
     border-bottom: 1px solid #C0C0C0;
-    display: flex;
     justify-content: space-between;
 }
 
@@ -54,7 +58,15 @@ body.has-share .sharewrapper {
     align-items: center;
     gap: 20px;
     padding: 20px;
+
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
+
+
 
 .share_content .btn {
     border-radius: 60px;
