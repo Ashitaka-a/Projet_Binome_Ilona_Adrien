@@ -47,8 +47,12 @@ body {
     display: flex;
     flex-direction: row;
     gap: 10px;
-
     margin-bottom: 30px;
+
+    @media (max-width: 480px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 .breadcrumb ul li+li:before {

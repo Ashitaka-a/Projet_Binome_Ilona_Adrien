@@ -2,6 +2,9 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 0px 0px 10px 10px;
 
+    @media (max-width: 480px) {
+        border-radius: 0px 0px 0px 0px;
+    }
 }
 
 .main-content-body {
@@ -12,6 +15,10 @@
     padding-right: 30px;
     text-align: justify;
 
+    @media (max-width: 480px) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 
@@ -22,6 +29,9 @@
     overflow: hidden;
     border-radius: 10px 10px 0px 0px;
 
+    @media (max-width: 480px) {
+        border-radius: 0px 0px 0px 0px;
+    }
 }
 
 .main-content-body .banner-text {
