@@ -1,6 +1,6 @@
-/* body {
+body.has-share {
     overflow: hidden;
-} */
+}
 
 
 body.has-share .sharewrapper {
@@ -10,7 +10,7 @@ body.has-share .sharewrapper {
 .sharewrapper {
     /* Cache un element */
     display: none;
-
+    z-index: 9999;
     background: rgba(0, 0, 0, .7);
     position: fixed;
     top: 0;
@@ -18,6 +18,7 @@ body.has-share .sharewrapper {
     right: 0;
     bottom: 0;
     height: 100vh;
+    padding: 20px;
 }
 
 
@@ -25,15 +26,14 @@ body.has-share .sharewrapper {
 
 .share {
     max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
     background: white;
-    position: fixed;
     top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     position: relative;
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
     border-radius: 10px;
-
-
 }
 
 .share_title {

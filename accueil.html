@@ -42,7 +42,8 @@
             <ul>
               <li><a href="accueil.html" title="Accueil">Accueil</a></li>
               <li><a href="formulaire.html" title="Accueil">Contact</a></li>
-              <li><a href="accueil.html" class="breadcrumb-cut" title="Accueil">Que faire au jardin au mois de Juillet</a></li>
+              <li><a href="accueil.html" class="breadcrumb-cut" title="Accueil">Que faire au jardin au mois de
+                  Juillet</a></li>
             </ul>
           </div>
 
@@ -232,71 +233,73 @@
         0 Commentaires
       </div>
 
-      <div class="publish-commentary-block">
-        <div class="publish-commentary-text">
-          Aucun commentaire
-        </div>
-      </div>
-
-      <div class="main-box-accueil">
-        <div class="main-box-accueil-title">
-          Ajouter un commentaire
+      <div class="container">
+        <div class="publish-commentary-block">
+          <div class="publish-commentary-text">
+            Aucun commentaire
+          </div>
         </div>
 
-        <form class="form-contact">
-          <div class="form-group">
-            <div class="form-text-accueil">
-              <label for="nometprénom">Votre nom et prénom :</label>
+        <div class="main-box-accueil">
+          <div class="main-box-accueil-title">
+            Ajouter un commentaire
+          </div>
+
+          <form class="form-contact">
+            <div class="form-group">
+              <div class="form-text-accueil">
+                <label for="nometprénom">Votre nom et prénom :</label>
+              </div>
+              <input type="nometprénom" id="nometprénom" maxlength="50" name="nometprénom" required
+                placeholder="Nom et Prénom">
             </div>
-            <input type="nometprénom" id="nometprénom" maxlength="50" name="nometprénom" required
-              placeholder="Nom et Prénom">
-          </div>
 
 
-          <div class="form-group">
-            <div class="form-text-accueil">
-              <label for="numero">Votre numéro de téléphone :</label>
+            <div class="form-group">
+              <div class="form-text-accueil">
+                <label for="numero">Votre numéro de téléphone :</label>
+              </div>
+              <input type="numero" id="numero" maxlength="20" name="numero" required placeholder="Numéro de téléphone">
             </div>
-            <input type="numero" id="numero" maxlength="20" name="numero" required placeholder="Numéro de téléphone">
-          </div>
 
-          <div class="form-group">
-            <div class="form-text-accueil">
-              <label for="mail">Votre adresse e-mail :</label>
+            <div class="form-group">
+              <div class="form-text-accueil">
+                <label for="mail">Votre adresse e-mail :</label>
+              </div>
+              <input type="mail" id="mail" maxlength="50" name="mail" required placeholder="Email">
             </div>
-            <input type="mail" id="mail" maxlength="50" name="mail" required placeholder="Email">
-          </div>
 
-          <div class="form-group">
-            <div class="form-text-accueil">
-              <label for="mail">Sujet :</label>
+            <div class="form-group">
+              <div class="form-text-accueil">
+                <label for="mail">Sujet :</label>
+              </div>
+              <select>
+                <option>Service Clients</option>
+                <option>Webmaster</option>
+              </select>
             </div>
-            <select>
-              <option>Service Clients</option>
-              <option>Webmaster</option>
-            </select>
-          </div>
 
-          <div class="form-group">
-            <div class="form-text-accueil">
-              <label for="message">Votre message :</label>
+            <div class="form-group">
+              <div class="form-text-accueil">
+                <label for="message">Votre message :</label>
+              </div>
+              <textarea name="message" id="message" rows="10" cols="50"></textarea>
             </div>
-            <textarea name="message" id="message" rows="10" cols="50"></textarea>
-          </div>
 
-          <div class="form-group checkbox">
-            <label for="politiquedeconfidentialite">
-              <input type="checkbox" id="politiquedeconfidentialite">
-              <span>En ajoutant un commentaire, je reconnais avoir pris connaissance de la <a href="#"
-                  title="Politique de confidentialité">Politique de confidentialité</a> et des droits dont je dispose
-                sur mes données personnelles.
-              </span>
-            </label>
-          </div>
-          <div class="form-group">
-            <button class="btn btn-message">Envoyer mon message</button>
-          </div>
-        </form>
+            <div class="form-group checkbox">
+              <label for="politiquedeconfidentialite">
+                <input type="checkbox" id="politiquedeconfidentialite">
+                <span>En ajoutant un commentaire, je reconnais avoir pris connaissance de la <a href="#"
+                    title="Politique de confidentialité">Politique de confidentialité</a> et des droits dont je dispose
+                  sur mes données personnelles.
+                </span>
+              </label>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-message">Envoyer mon message</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
 
