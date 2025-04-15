@@ -59,4 +59,14 @@ body {
 
 .breadcrumb ul a {
     color: white
+} 
+
+@media (max-width: 552px) {
+    .breadcrumb-cut {
+    display: inline-block;
+    width: 110px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    }
 }
