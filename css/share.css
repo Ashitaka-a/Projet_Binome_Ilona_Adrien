@@ -22,6 +22,7 @@ body.has-share .sharewrapper {
 
 
 
+
 .share {
     max-width: 600px;
     background: white;
@@ -31,6 +32,8 @@ body.has-share .sharewrapper {
     transform: translate(-50%, -50%);
     position: relative;
     border-radius: 10px;
+
+
 }
 
 .share_title {
@@ -41,6 +44,8 @@ body.has-share .sharewrapper {
     justify-content: space-between;
     align-items: center;
     gap: 05;
+
+
 }
 
 .share_title .btn img {
@@ -55,6 +60,12 @@ body.has-share .sharewrapper {
     align-items: center;
     gap: 20px;
     padding: 20px;
+
+    @media (max-width: 768px) {
+
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
