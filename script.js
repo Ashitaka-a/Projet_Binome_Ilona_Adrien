@@ -12,3 +12,33 @@ btnCloseModal.addEventListener('click', function () {
 });
 
 
+let openMainNavBtn = document.querySelector('.header-burger');
+let closeMainNavBtn = document.querySelector('.header-close');
+let headerNav = document.querySelector('.header-nav');
+
+if (closeMainNavBtn) {
+    closeMainNavBtn.addEventListener('click', function() {
+        closeMenuMobile();
+    })
+}
+if (openMainNavBtn) {
+    openMainNavBtn.addEventListener('click', function() {
+        openMenuMobile();
+    })
+}
+function openMenuMobile() {
+    headerNav.classList.add('open');
+    document.querySelector('.overlay-menu-mobile').classList.add('open');
+} 
+
+function closeMenuMobile() {
+    
+    headerNav.classList.add('transition');
+    
+    setTimeout(() => {
+        headerNav.classList.remove('open');
+        headerNav.classList.remove('transition');
+        document.querySelector('.overlay-menu-mobile').classList.remove('open');
+      }, 300);
+      
+} 
