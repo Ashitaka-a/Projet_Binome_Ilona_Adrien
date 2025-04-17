@@ -1,0 +1,131 @@
+.Box-Astuces {
+    border-top: 50px solid green;
+    background: linear-gradient(#7C6CB7, #5B4D8C);
+
+}
+
+/* .Box-Astuces:before {
+    background: linear-gradient(#7C6CB7, #5B4D8C);
+} */
+
+.Astuces h2 {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+
+.Astuces .astuces-block {}
+
+
+.Astuces .astuces-container {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    text-align: center;
+
+    @media (max-width: 768px) {
+
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.image-text {
+    width: 100%;
+
+}
+
+
+.astuces-container-flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+
+
+    @media (max-width: 768px) {
+        flex-direction: row;
+
+    }
+}
+
+.astuces-container-flex picture img {
+    width: 100%;
+    vertical-align: bottom;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+
+    @media (max-width: 768px) {
+        max-width: 150px;
+        border-radius: 20px 0px 0px 20px;
+    }
+}
+
+.astuces-container-flex .image-text a {
+    display: block;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+
+    @media (max-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 100%;
+        border-radius: 0px 20px 20px 0px;
+    }
+}
+
+.next-page {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: green;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 5px;
+    border: black;
+    border-style: solid;
+    column-gap: 12px;
+    border-radius: 8px;
+
+    @media (max-width: 768px) {
+        flex-direction: row;
+
+    }
+}
+
+.btn-next .button-prevNext .links .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.next-page .btn-next .button-prevNext {
+    border: none;
+
+}
+
+
+
+.next-page .btn-next .button-prevNext,
+.next-page .links .link {
+    height: 45px;
+    width: 45px;
+    font-size: 20px;
+    color: aquamarine;
+
+
+}
