@@ -17,7 +17,13 @@
 }
 
 
-.Astuces .astuces-block {}
+.Astuces .astuces-block {
+    @media (max-width: 768px) {
+
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 
 .Astuces .astuces-container {
