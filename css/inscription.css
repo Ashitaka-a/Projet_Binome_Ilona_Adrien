@@ -1,0 +1,101 @@
+.main-content-body-inscription {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+
+.insciption-body {
+    max-width: 1000px;
+    margin: auto;
+    text-align: justify;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.article-body form {
+        display: flex;
+        flex-direction: column;
+}
+
+.article-body h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.article-body h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.article-body hr {
+    margin: 10px 0;
+}
+
+div[class$=-field] {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+    width: 100%;
+    justify-content: space-between;
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: 100%;
+    }
+}
+
+div[class$=-field] .space-field {
+        display: flex;
+        flex-direction: column;
+}
+
+
+.space-field label {
+    margin-bottom: 10px;
+    font-weight: 500;
+
+}
+
+.space-field input {
+    margin-bottom: 20px;
+    padding: 5px;
+    outline: 0;
+    height: 40px;
+    border: 1px solid rgb(114, 114, 114);
+    border-radius: 10px;
+}
+
+.space-field input:focus {
+    border: 1px solid #056608;
+}
+
+input[type="submit"] {
+    background-color: #056608;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #056608;
+    cursor: pointer;
+    height: 40px;
+}
+
+.account p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.account p a {
+    text-decoration: none;
+    color: #056608;
+}
+
+.account p a:hover {
+    text-decoration: underline;
+}

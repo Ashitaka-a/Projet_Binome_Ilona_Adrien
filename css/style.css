@@ -4,7 +4,6 @@
 
 @import url("header.css");
 
-/* Ilona composant */
 @import url("share.css");
 
 @import url("footer.css");
@@ -14,8 +13,11 @@
 @import url("formulaire.css");
 
 @import url("article.css");
+
 @import url("astuces.css");
 @import url("Connecter.css");
+
+@import url("inscription.css");
 
 body * {
     /* border: 1px solid red;
