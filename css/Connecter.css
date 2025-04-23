@@ -16,8 +16,20 @@
     text-align: center;
 }
 
+.share-connexion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .login-box h2 {
     margin-bottom: 20px;
+}
+
+.login-box a {
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #007c1d;
 }
 
 .login-box input[type="email"],
