@@ -1,6 +1,6 @@
 .connect {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #b6b0b0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,16 +10,29 @@
 .login-box {
     background-color: white;
     padding: 30px;
+    margin: 20px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 400px;
     text-align: center;
+
+    @media (max-width: 768px) {
+
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .share-connexion {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    @media (max-width: 768px) {
+
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .login-box h2 {
