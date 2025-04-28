@@ -219,3 +219,10 @@
     margin-bottom: 20px;
 
 }
+
+.date-info {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
