@@ -49,7 +49,7 @@ function closeMenuMobile() {
 // Fonction pour calculer et afficher la différence
 function afficherDifferenceAnnees() {
 
-    const anneePublication = 2022;
+    const anneePublication = 2024;
 
     const anneeActuelle = new Date().getFullYear();
     const difference = anneeActuelle - anneePublication;
