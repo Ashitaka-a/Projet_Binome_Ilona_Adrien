@@ -58,3 +58,24 @@ function afficherDifferenceAnnees() {
     divDate.textContent = (`Publié il y a ${difference} an${difference > 1 ? 's' : ''}.`);
 }
 afficherDifferenceAnnees()
+
+// Compteur de likes
+
+const likeCount = document.querySelector(".compteur");
+let like = 0;
+let messageAffiche = false;
+
+function btn_like(e) {
+    e.preventDefault();
+    like++;
+    console.log(like);
+    document.querySelector(".compteur").textContent = like;
+    messageSpecial();
+}
+function messageSpecial() {
+    if (like > 5 && !messageAffiche) {
+        alert("Vous aimez vraiment cet article !");
+        messageAffiche = true;
+        return;
+    }
+}
