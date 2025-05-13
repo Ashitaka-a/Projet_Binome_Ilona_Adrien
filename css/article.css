@@ -226,3 +226,12 @@
     margin-bottom: 20px;
     font-weight: bold;
 }
+
+#btnLike {
+    margin: 20px;
+    margin-left: 220px;
+    padding: auto;
+    border: #056608;
+    border-radius: 20px;
+
+}
