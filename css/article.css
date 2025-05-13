@@ -234,4 +234,9 @@
     border: #056608;
     border-radius: 100%;
 
+
+}
+
+#btnLike :hover {
+    transform: scale(1.1);
 }
